@@ -8,6 +8,9 @@
     "engines": {
         "vscode": "^1.28.0"
     },
+    "scripts": {
+        "package": "vsce package"
+    },
     "categories": [
         "Snippets"
     ],
