@@ -4,7 +4,11 @@
     "description": "Snippets",
     "version": "0.0.1",
     "publisher": "AdrianDev",
-    "icon": "/my-icon.png",
+    "icon": "my-icon.png",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/adunham95/snippetlib.git"
+      },
     "engines": {
         "vscode": "^1.28.0"
     },
