@@ -1,12 +1,12 @@
 {
-    "name": "adriansnippets",
+    "name": "adrian-snippets",
     "displayName": "AdrianSnippets",
-    "description": "",
+    "description": "Snippets",
     "version": "0.0.1",
     "publisher": "AdrianDev",
-    "icon": "my-icon.png",
+    "icon": "/my-icon.png",
     "engines": {
-        "vscode": "^1.65.0"
+        "vscode": "^1.28.0"
     },
     "categories": [
         "Snippets"
