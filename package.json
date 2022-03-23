@@ -3,6 +3,8 @@
     "displayName": "AdrianSnippets",
     "description": "",
     "version": "0.0.1",
+    "publisher": "AdrianDev",
+    "icon": "my-icon.png",
     "engines": {
         "vscode": "^1.65.0"
     },
@@ -16,5 +18,9 @@
                 "path": "./snippets/snippets.code-snippets"
             }
         ]
+    },
+    "galleryBanner": {
+        "color": "#fff",
+        "theme": "dark"
     }
 }
