@@ -2,6 +2,6 @@
 
 This is snippet library for snippets
 
-### 0.0.1
+### 1.0.0
 
 Initial release of Adrians Snippets
