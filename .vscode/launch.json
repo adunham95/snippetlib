@@ -13,7 +13,8 @@
             "args": [
                 "--extensionDevelopmentPath=${workspaceFolder}"
             ],
-            "sourceMaps": true
+            "sourceMaps": true,
+            "preLaunchTask": "npm: build"
         }
     ]
 }
