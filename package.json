@@ -14,7 +14,8 @@
     },
     "scripts": {
         "package": "vsce package",
-        "publish": "vsce publish"
+        "publish": "vsce publish",
+        "build": "node build.js"
     },
     "categories": [
         "Snippets"
@@ -23,97 +24,19 @@
         "snippets": [
             {
                 "language": "javascript",
-                "path": "./snippets/gatsby.code-snippets"
+                "path": "./javascript.code-snippets"
             },
             {
                 "language": "javascriptreact",
-                "path": "./snippets/gatsby.code-snippets"
+                "path": "./javascriptreact.code-snippets"
             },
             {
                 "language": "typescript",
-                "path": "./snippets/gatsby.code-snippets"
+                "path": "./typescript.code-snippets"
             },
             {
                 "language": "typescriptreact",
-                "path": "./snippets/gatsby.code-snippets"
-            },
-
-            {
-                "language": "javascript",
-                "path": "./snippets/next.code-snippets"
-            },
-            {
-                "language": "javascriptreact",
-                "path": "./snippets/next.code-snippets"
-            },
-            {
-                "language": "typescript",
-                "path": "./snippets/next.code-snippets"
-            },
-            {
-                "language": "typescriptreact",
-                "path": "./snippets/next.code-snippets"
-            },
-
-            {
-                "language": "javascript",
-                "path": "./snippets/react-helmet.code-snippets"
-            },
-            {
-                "language": "javascriptreact",
-                "path": "./snippets/react-helmet.code-snippets"
-            },
-            {
-                "language": "typescript",
-                "path": "./snippets/react-helmet.code-snippets"
-            },
-            {
-                "language": "typescriptreact",
-                "path": "./snippets/react-helmet.code-snippets"
-            },
-
-            {
-                "language": "javascript",
-                "path": "./snippets/react.code-snippets"
-            },
-            {
-                "language": "javascriptreact",
-                "path": "./snippets/react.code-snippets"
-            },
-            {
-                "language": "typescript",
-                "path": "./snippets/react.code-snippets"
-            },
-            {
-                "language": "typescriptreact",
-                "path": "./snippets/react.code-snippets"
-            },
-
-            {
-                "language": "typescript",
-                "path": "./snippets/react-ts.code-snippets"
-            },
-            {
-                "language": "typescriptreact",
-                "path": "./snippets/react-ts.code-snippets"
-            },
-
-            {
-                "language": "typescript",
-                "path": "./snippets/typescript.code-snippets"
-            },
-            {
-                "language": "typescriptreact",
-                "path": "./snippets/typescript.code-snippets"
-            },
-
-            {
-                "language": "javascript",
-                "path": "./snippets/js.code-snippets"
-            },
-            {
-                "language": "javascriptreact",
-                "path": "./snippets/js.code-snippets"
+                "path": "./typescriptreact.code-snippets"
             }
         ]
     },
