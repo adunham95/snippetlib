@@ -46,5 +46,5 @@
     ],
     "description": "Creates a React Arrow Function Component with ES7 module system with PropTypes",
     "scope": "typescript,typescriptreact"
-  },
+  }
 }

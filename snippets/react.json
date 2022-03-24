@@ -673,5 +673,5 @@
           "}, [${3:input}])"
         ],
         "scope": "javascript,javascriptreact,typescript,typescriptreact"
-      },
+      }
 }
