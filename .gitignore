@@ -2,3 +2,7 @@ node_modules
 *.vsix
 
 code.txt
+javascript.code-snippets
+javascriptreact.code-snippets
+typescript.code-snippets
+typescriptreact.code-snippets
