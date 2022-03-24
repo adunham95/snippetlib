@@ -1,0 +1,50 @@
+{
+  "react-functional-component-with-types": {
+    "prefix": ["react component functional typescript", "rfct"],
+    "body": [
+      "import React from 'react'",
+      "",
+      "interface IProps {",
+      "",
+      "}",
+      "",
+      "function ${1:${TM_FILENAME_BASE/(.*)/${1:/pascalcase}/g}}(props: IProps) {",
+      "\treturn (",
+      "\t\t<div>",
+      "\t\t\t$0",
+      "\t\t</div>",
+      "\t)",
+      "}",
+      "",
+      "",
+      "export default ${1:${TM_FILENAME_BASE/(.*)/${1:/pascalcase}/g}}",
+      "",
+      ""
+    ],
+    "description": "Creates a React Functional Component with ES7 module system with PropTypes",
+    "scope": "typescript,typescriptreact"
+  },
+  "react-arrow-function-component-proptypes": {
+    "prefix": ["react component arrow function proptypes", "rafct"],
+    "body": [
+      "import React from 'react'",
+      "",
+      "interface IProps {",
+      "",
+      "}",
+      "",
+      "const ${1:${TM_FILENAME_BASE/(.*)/${1:/pascalcase}/g}} = props => {",
+      "\treturn (",
+      "\t\t<div>",
+      "\t\t\t$0",
+      "\t\t</div>",
+      "\t)",
+      "}",
+      "",
+      "export default ${1:${TM_FILENAME_BASE/(.*)/${1:/pascalcase}/g}}",
+      ""
+    ],
+    "description": "Creates a React Arrow Function Component with ES7 module system with PropTypes",
+    "scope": "typescript,typescriptreact"
+  },
+}

@@ -23,15 +23,97 @@
         "snippets": [
             {
                 "language": "javascript",
-                "path": "./snippets/snippets.code-snippets"
+                "path": "./snippets/gatsby.code-snippets"
             },
             {
                 "language": "javascriptreact",
-                "path": "./snippets/snippets.code-snippets"
+                "path": "./snippets/gatsby.code-snippets"
+            },
+            {
+                "language": "typescript",
+                "path": "./snippets/gatsby.code-snippets"
             },
             {
                 "language": "typescriptreact",
-                "path": "./snippets/snippets.code-snippets"
+                "path": "./snippets/gatsby.code-snippets"
+            },
+
+            {
+                "language": "javascript",
+                "path": "./snippets/next.code-snippets"
+            },
+            {
+                "language": "javascriptreact",
+                "path": "./snippets/next.code-snippets"
+            },
+            {
+                "language": "typescript",
+                "path": "./snippets/next.code-snippets"
+            },
+            {
+                "language": "typescriptreact",
+                "path": "./snippets/next.code-snippets"
+            },
+
+            {
+                "language": "javascript",
+                "path": "./snippets/react-helmet.code-snippets"
+            },
+            {
+                "language": "javascriptreact",
+                "path": "./snippets/react-helmet.code-snippets"
+            },
+            {
+                "language": "typescript",
+                "path": "./snippets/react-helmet.code-snippets"
+            },
+            {
+                "language": "typescriptreact",
+                "path": "./snippets/react-helmet.code-snippets"
+            },
+
+            {
+                "language": "javascript",
+                "path": "./snippets/react.code-snippets"
+            },
+            {
+                "language": "javascriptreact",
+                "path": "./snippets/react.code-snippets"
+            },
+            {
+                "language": "typescript",
+                "path": "./snippets/react.code-snippets"
+            },
+            {
+                "language": "typescriptreact",
+                "path": "./snippets/react.code-snippets"
+            },
+
+            {
+                "language": "typescript",
+                "path": "./snippets/react-ts.code-snippets"
+            },
+            {
+                "language": "typescriptreact",
+                "path": "./snippets/react-ts.code-snippets"
+            },
+
+            {
+                "language": "typescript",
+                "path": "./snippets/typescript.code-snippets"
+            },
+            {
+                "language": "typescriptreact",
+                "path": "./snippets/typescript.code-snippets"
+            },
+
+            {
+                "language": "javascript",
+                "path": "./snippets/js.code-snippets"
+            },
+            {
+                "language": "javascriptreact",
+                "path": "./snippets/js.code-snippets"
             }
         ]
     },
