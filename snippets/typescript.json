@@ -1,1 +1,20 @@
-{}
+{
+	"ts-interface": {
+		"prefix": ["interface", "ts-interface"],
+		"scope": "typescript,typescriptreact",
+		"body": [
+		  "interface I$1 {",
+		"\t$2",
+		  "};"
+		]
+	  },
+	  "ts-enum": {
+		"prefix": ["enum", "ts-enum"],
+		"scope": "typescript,typescriptreact",
+		"body": [
+		  "enum E$1 {",
+		  "\t$2",
+		  "};"
+		]
+	  }
+}
