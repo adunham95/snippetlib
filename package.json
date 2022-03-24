@@ -13,7 +13,8 @@
         "vscode": "^1.28.0"
     },
     "scripts": {
-        "package": "vsce package"
+        "package": "vsce package",
+        "publish": "vsce publish"
     },
     "categories": [
         "Snippets"
