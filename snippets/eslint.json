@@ -1,21 +1,21 @@
 {
 	"eslint-disable": {
-		"prefix": ["eslint-disable", "esdisable", "// eslint"],
+		"prefix": ["eslint-disable", "esdisable", "eslint"],
 		"body": ["/* eslint-disable $0 */"],
 		"scope": "javascript,javascriptreact,typescript,typescriptreact"
 	},
 	"eslint-enable": {
-		"prefix": ["eslint-enable", "enable", "// eslint"],
+		"prefix": ["eslint-enable", "enable", "eslint"],
 		"body": ["/* eslint-enable $0 */"],
 		"scope": "javascript,javascriptreact,typescript,typescriptreact"
 	},
 	"eslint-disable-next-line": {
-		"prefix": ["eslint-disable-next", "esdisablenext", "// eslint"],
+		"prefix": ["eslint-disable-next", "esdisablenext", "eslint"],
 		"body": ["//eslint-disable-next-line $0"],
 		"scope": "javascript,javascriptreact,typescript,typescriptreact"
 	},
 	"eslint-disable-line": {
-		"prefix": ["eslint-disable-line", "esdisableline", "// eslint"],
+		"prefix": ["eslint-disable-line", "esdisableline", "eslint"],
 		"body": ["//eslint-disable-line $0"],
 		"scope": "javascript,javascriptreact,typescript,typescriptreact"
 	}
