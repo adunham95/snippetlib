@@ -1,0 +1,12 @@
+{
+	"eslint-disable": {
+		"prefix": ["eslint-disable", "esdisable", "// eslint"],
+		"body": ["//eslint-disable $0"],
+		"scope": "javascript,javascriptreact,typescript,typescriptreact"
+	},
+	"eslint-disable-next-line": {
+		"prefix": ["eslint-disable-next", "esdisablenext", "// eslint"],
+		"body": ["//eslint-disable-next-line $0"],
+		"scope": "javascript,javascriptreact,typescript,typescriptreact"
+	}
+}
