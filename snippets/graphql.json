@@ -1,1 +1,28 @@
-{}
+{
+	"graphql-query-query": {
+		"prefix": ["graphql", "query"],
+		"body": [
+			"export const $1_QUERY = `",
+			"  query $2($$3: $4!){",
+			"    $2(input:$$3){",
+			"       $5",
+			"    }",
+			"  }",
+			"}`"
+		  ],
+		"scope": "javascript,javascriptreact,typescript,typescriptreact"
+	  },
+	  "graph-ql-mutation": {
+		"prefix": ["graphql", "mutation"],
+		"body": [
+			"export const $1_MUTATION = `",
+			"  mutation $2($$3: $4!){",
+			"    $2(input:$$3){",
+			"       $5",
+			"    }",
+			"  }",
+			"}`"
+		  ],
+		"scope": "javascript,javascriptreact,typescript,typescriptreact"
+	  }
+}
