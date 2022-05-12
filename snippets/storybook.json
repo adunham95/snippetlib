@@ -1,0 +1,25 @@
+{
+	"storybook-react": {
+        "prefix": ["storybook component"],
+        "body": ["import React from 'react'",
+		"import { ComponentStory, ComponentMeta } from '@storybook/react';",
+		"",
+		"import $0 from '$0';",
+		"",
+		"export default {",
+		"\ttitle: '{1:${TM_FILENAME_BASE/(.*)/${1:/pascalcase}/g}}',",
+		"\tcomponent: {1:${TM_FILENAME_BASE/(.*)/${1:/pascalcase}/g}},",
+		"\targTypes: {},",
+		"\targs: {},",
+		"// eslint-disable-next-line prettier/prettier",
+		"} as ComponentMeta<typeof {1:${TM_FILENAME_BASE/(.*)/${1:/pascalcase}/g}}>;",
+		"",
+		"const Template: ComponentStory<typeof {1:${TM_FILENAME_BASE/(.*)/${1:/pascalcase}/g}}> = (args) => <{1:${TM_FILENAME_BASE/(.*)/${1:/pascalcase}/g}} {...args}/>",
+		"",
+		"export const Primary = Template.bind({});",
+		"Primary.args = {};"
+	],
+        "scope": "typescript,typescriptreact",
+        "description": "Creates a Storybook Component"
+      }
+}
