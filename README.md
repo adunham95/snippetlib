@@ -2,6 +2,10 @@
 
 This is snippet library for snippets
 
+### 1.3.3
+
+Updated react typescript snippet
+
 ### 1.1.0
 
 Added Eslint Snippets

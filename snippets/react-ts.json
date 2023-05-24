@@ -1,39 +1,61 @@
 {
   "react-functional-component-with-types": {
     "prefix": ["react component functional typescript", "rfct"],
+    "scope": "typescript,typescriptreact",
     "body": [
       "import React from 'react'",
       "",
-      "interface IProps {",
+      "interface I${1:${TM_FILENAME_BASE/(.*)/${1:/pascalcase}/g}}Props {",
       "",
       "}",
       "",
-      "function ${1:${TM_FILENAME_BASE/(.*)/${1:/pascalcase}/g}}(props: IProps) {",
+      "function ${1:${TM_FILENAME_BASE/(.*)/${1:/pascalcase}/g}}(props: I${1:${TM_FILENAME_BASE/(.*)/${1:/pascalcase}/g}}Props) {",
       "\treturn (",
       "\t\t<div>",
       "\t\t\t$0",
       "\t\t</div>",
       "\t)",
       "}",
-      "",
-      "",
-      "export default ${1:${TM_FILENAME_BASE/(.*)/${1:/pascalcase}/g}}",
-      "",
       ""
     ],
-    "description": "Creates a React Functional Component with ES7 module system with PropTypes",
-    "scope": "typescript,typescriptreact"
+    "description": "Creates a React Functional Component with Typescript Prop Interface"
   },
-  "react-arrow-function-component-proptypes": {
-    "prefix": ["react component arrow function proptypes", "rafct"],
+  "react-functional-component-with-types-export": {
+    "prefix": ["react component functional typescript export", "rfct"],
+    "scope": "typescript,typescriptreact",
     "body": [
       "import React from 'react'",
       "",
-      "interface IProps {",
+      "interface I${1:${TM_FILENAME_BASE/(.*)/${1:/pascalcase}/g}}Props {",
       "",
       "}",
       "",
-      "const ${1:${TM_FILENAME_BASE/(.*)/${1:/pascalcase}/g}} = props => {",
+      "function ${1:${TM_FILENAME_BASE/(.*)/${1:/pascalcase}/g}}(props: I${1:${TM_FILENAME_BASE/(.*)/${1:/pascalcase}/g}}Props) {",
+      "\treturn (",
+      "\t\t<div>",
+      "\t\t\t$0",
+      "\t\t</div>",
+      "\t)",
+      "}",
+      "",
+      "",
+      "export default ${1:${TM_FILENAME_BASE/(.*)/${1:/pascalcase}/g}}",
+      "",
+      ""
+    ],
+    "description": "Creates a React Functional Component with Typescript Props Interface with export default"
+  },
+  "react-arrow-function-component-typescript-export": {
+    "prefix": ["react component arrow function typescript export", "rafct"],
+    "scope": "typescript,typescriptreact",
+    "body": [
+      "import React from 'react'",
+      "",
+      "interface I${1:${TM_FILENAME_BASE/(.*)/${1:/pascalcase}/g}}Props {",
+      "",
+      "}",
+      "",
+      "const ${1:${TM_FILENAME_BASE/(.*)/${1:/pascalcase}/g}} = (props: I${1:${TM_FILENAME_BASE/(.*)/${1:/pascalcase}/g}}Props) => {",
       "\treturn (",
       "\t\t<div>",
       "\t\t\t$0",
@@ -44,7 +66,26 @@
       "export default ${1:${TM_FILENAME_BASE/(.*)/${1:/pascalcase}/g}}",
       ""
     ],
-    "description": "Creates a React Arrow Function Component with ES7 module system with PropTypes",
-    "scope": "typescript,typescriptreact"
+    "description": "Creates a React Functional Component with Typescript Props Interface with export default"
+  },
+  "react-arrow-function-component-typescript": {
+    "prefix": ["react component arrow function typescript", "rafct"],
+    "scope": "typescript,typescriptreact",
+    "body": [
+      "import React from 'react'",
+      "",
+      "interface IProps {",
+      "",
+      "}",
+      "",
+      "export const ${1:${TM_FILENAME_BASE/(.*)/${1:/pascalcase}/g}} = (props: IProps) => {",
+      "\treturn (",
+      "\t\t<div>",
+      "\t\t\t$0",
+      "\t\t</div>",
+      "\t)",
+      "}"
+    ],
+    "description": "Creates a React Arrow Component with Typescript Props Interface"
   }
 }
