@@ -1,0 +1,1 @@
+Path to geneate publish file: https://code.visualstudio.com/api/working-with-extensions/publishing-extension
