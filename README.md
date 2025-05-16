@@ -2,6 +2,10 @@
 
 This is snippet library for snippets
 
+### 1.3.5
+
+Added Svelte snippets
+
 ### 1.3.3
 
 Updated react typescript snippet

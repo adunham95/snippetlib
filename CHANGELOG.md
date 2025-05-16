@@ -7,3 +7,10 @@ Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how 
 ## [Unreleased]
 
 - Initial release
+
+## [1.3.5]
+
+- Added Basic Svelte snippets
+  - Svelte Component
+  - Svelte Typescript Component
+  - Svelte Props

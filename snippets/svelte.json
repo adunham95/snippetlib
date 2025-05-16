@@ -1,0 +1,38 @@
+{
+  "svelte-component": {
+    "prefix": ["svelte component"],
+    "scope": "svelte",
+    "body": [
+      "<script>",
+      "",
+      "const {}= $props()",
+      "",
+      "</script>",
+      "<div>",
+      "",
+      "</div>"
+    ]
+  },
+  "svelte-component-ts": {
+    "prefix": ["svelte component ts"],
+    "scope": "svelte",
+    "body": [
+      "<script lang='ts'>",
+      "",
+      "interface Props {",
+      "",
+      "}",
+      "const {}: Props = $props()",
+      "",
+      "</script>",
+      "<div>",
+      "",
+      "</div>"
+    ]
+  },
+  "svelte-props": {
+    "prefix": ["svelte props"],
+    "scope": "svelte",
+    "body": ["interface Props {", "", "}", "const {}: Props = $props()"]
+  }
+}
